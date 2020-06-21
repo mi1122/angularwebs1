@@ -1,0 +1,11 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand text-white">Milk-Shop</a>
+  
+  <ul class="nav navbar-nav" style="text-align:left;">
+        <li>
+          <a [routerLink]="['/order']" >Orsers</a>
+        </li>
+        </ul>
+  
+  <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()"><a class="navbar-brand text-white ">{{userDetails.userName}}</a>| Logout</button>
+</nav>
